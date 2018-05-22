@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<meta content="telephone=no" name="format-detection">
+	<title>sdmay18-09 • Tool Support for Continuous Model-Based Verification of the Linux Kernel</title>
+	<link href="https://cdn.theme.iastate.edu/nimbus-sans/css/nimbus-sans.css" rel="stylesheet">
+	<link href="https://cdn.theme.iastate.edu/merriweather/css/merriweather.css" rel="stylesheet">
+	<link href="https://cdn.theme.iastate.edu/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<!-- <link href="css/iastate.legacy.min.css" rel="stylesheet"> // Include if your content requires legacy IASTATE theme CSS -->
+	<link href="css/iastate.min.css" rel="stylesheet">
+	 <link href="css/site.css" rel="stylesheet" media="all">
+	<link href="https://cdn.theme.iastate.edu/favicon/favicon.ico" rel="icon" type="image/x-icon">
+	<link href="https://cdn.theme.iastate.edu/favicon/favicon.png" rel="icon" type="">
+	<link href="https://cdn.theme.iastate.edu/favicon/apple-touch-icon.png" rel="icon">
+</head>
+
+<body class="">
+
+<p class="hidden"><b>This theme uses "root" links to dependencies and assets (CSS, JS, images, etc.). Place all theme files and directories at the root of your web server for this page to render as intended.</b></p>
+
+<!-- skip-nav -->
+<div class="skip-nav"><a href="#main-content">Skip to main content</a></div>
+<!-- /skip-nav -->
+
+<!-- header -->
+<header>
+
+<!-- navbar-iastate -->
+<nav class="navbar-iastate">
+	<div class="container">
+<div style="background: #333;height: 14px;">
+</div>
+	</div>
+</nav>
+<!-- /navbar-iastate -->
+
+<!-- navbar-site -->
+<nav class="navbar-site">
+	<div class="container">
+
+		<div class="navbar-site-wordmark">
+			<a href="/" title="Home" class="wordmark-unit">
+				<span class="wordmark-isu">Iowa State University</span>
+				<span class="wordmark-unit-title">Senior Design Team sdmay18-09</span>
+				<span class="wordmark-unit-title"> Tool Support for Continuous Model-Based Verification of the Linux Kernel</span>
+			</a>
+		</div>
+
+		<div class="navbar-header visible-xs visible-sm">
+			<button id="navbar-menu-button" type="button" class="navbar-toggle navbar-toggle-left collapsed" data-toggle="collapse" data-target="#navbar-menu-collapse, #navbar-site-links-collapse" aria-expanded="false">
+				<span class="navbar-toggle-icon menu-icon">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</span>
+				<span class="navbar-toggle-label">
+					Menu <span class="sr-only">Toggle</span>
+				</span>
+			</button>
+			<button id="navbar-search-button" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-site-search-collapse" aria-expanded="false">
+				<span class="navbar-toggle-icon search-icon"></span>
+				<span class="navbar-toggle-label">
+					Search <span class="sr-only">Toggle</span>
+				</span>
+			</button>
+		</div>
+
+		<div class="navbar-site-info collapse navbar-collapse" id="navbar-site-search-collapse">
+			<form action="//google.iastate.edu/search" class="navbar-site-search" method="GET" role="search">
+				<label for="search-input" class="sr-only">Search</label>
+				<input name="output" type="hidden" value="xml_no_dtd">
+				<input name="client" type="hidden" value="default_frontend">
+				<input name="proxystylesheet" type="hidden" value="default_frontend">
+				<input id="search-input" aria-label="Text input for search" title="Search" placeholder="Search" tabindex="0" type="text" class="form-control">
+				<input class="hidden" title="Submit" type="submit" value="Search">
+				<span class="search-icon"></span>
+			</form>
+		</div>
+
+		<div class="navbar-site-info collapse navbar-collapse navbar-caps" id="navbar-site-links-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<!-- Site-wide links. Customized for your site -->
+				<li><a href="http://ece.iastate.edu">ECpE @ ISU</a></li>
+				<li><a href="http://seniord.ece.iastate.edu">ECpE Senior Design</a></li>
+			</ul>
+		</div>
+
+	</div>
+</nav>
+<!-- /navbar-site -->
+
+</header>
+<!-- /header -->
+
+<!-- navs -->
+<div id="navs">
+
+<!-- navbar-menu -->
+<div class="navbar-menu-wrapper">
+<nav class="navbar navbar-menu navbar-default navbar-static-top navbar-caps" role="navigation">
+	<div class="container">
+
+		<div class="collapse navbar-collapse" id="navbar-menu-collapse">
+			<ul class="nav navbar-nav" >
+				<li id="overviewNav" class="nav-button"><a class="target-offset" href="#overview" tabindex="0">Project Overview</a></li>
+				<li id="documentsNav" class="dropdown dropdown-hover nav-button">
+					<a class="target-offset dropdown-toggle" href="#documents" role="button" aria-haspopup="true" aria-expanded="false" data-submenu="" tabindex="0">Documents</a>
+					<a class="dropdown-toggle-mobile" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a class="target-offset" href="#weeklyreports" tabindex="0">Weekly Reports</a></li>
+						<li><a class="target-offset" href="#designdocs" tabindex="0">Design Documents</a></li>
+						<li><a class="target-offset" href="#finalreview" tabindex="0">Final Review</a></li>
+					</ul>
+				</li>
+				<li id="aboutNav" class="nav-button"><a class="target-offset" href="#about" tabindex="0">About the Team</a></li>
+				<li><a href="https://git.ece.iastate.edu/sd/sdmay18-09" tabindex="0">Project Repository</a></li>
+				<li><a href="https://lsap.knowledgecentricsoftwarelab.com/" tabindex="0">L-SAP Results</a></li>
+			</ul>
+		</div>
+
+	</div>
+</nav>
+</div>
+<!-- /navbar-menu -->
+
+</div>
+<!-- /navs -->
+
+<!-- post-nav -->
+<div id="post-nav">
+<!-- Place content here that you want displayed below navigation and above content. This is a great place to put banners, jumbotrons, carousels, and hero images. This area is not constrained by the theme "container" width, so content here can be full window width. -->
+</div>
+<!-- /post-nav -->
+
+<!-- main -->
+<main role="main" id="main-content">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+				<h3>Senior Design Team sdmay18-09 • Tool Support for Continuous Model-Based Verification of the Linux Kernel</h3>
+			</div>
+		</div>
+		<div id="overview" class="nav-content row collapse" aria-expanded="false">
+			<div class="col-xs-12 col-md-12">
+				<h3>Project Overview</h3>
+				<p>
+					This is a brief overview of our project. For a more detailed presentation of our project, click <a href="documents/sdmay18-09_final_presentation.pdf">here</a>.
+				</p>
+
+				<p>Our project centers around L-SAP, a program analysis tool for Eclipse. It is used to perform scalable
+					and accurate lock/unlock pairing analysis for the Linux Kernel. L-SAP performs a model-based verification
+					(with the help of Atlas) to transform the many paths of the linux codebase into graph models that can
+					be analyzed and verfied for lock/unlock pairs. If L-SAP is unable to perform a conclusive analysis,
+					human readable graphs are created as evidence and a manual verification process of that locking instance
+					can be performed.</p>
+				<h4>The Problem</h4>
+				<p>L-SAP is a great tool that has already discovered numerous lock/unlock mismatches, leading to a better
+					more secure kernel. However, there are a number of steps that must be performed every time the kernel is tested:</p>
+				<ol>
+					<li>Create an L-SAP Patch to get the Kernel ready for L-SAP</li>
+					<li>Run the verifier</li>
+					<li>Post the results on a public website</li>
+				</ol>
+
+				<p>While these steps don't seem like a lot of work, they are tedious to do manually. The Patch for L-SAP
+					simply redirects all the lock/unlock methods in the kernel to a single dummy function. Since this
+					version of the kernel will never be run, funnelling all locking methods to a dummy lock method and
+					all unlock methods to a dummy unlock method makes L-SAP run quicker and efficient. However, creating
+					this patch for every version requires an understanding of which lock/unlock methods exist and making
+					sure their definitions have not changed.</p>
+				<p>Running the verifier takes time and is very memory intensive. While the verifier can be run automatically,
+					The results it generates do map back to previous versions of the kernel. This means there is no way to
+					check the difference between the same instance in two versions of the kernel.</p>
+				<p>Finally, the results of the verifier get packaged into an antiquated website design. This design makes
+					it hard to find a specific instance and once the instance is found, there is no clear cut information
+					as to the final status of the verifier.</p>
+
+				<h4>The Solution</h4>
+				<p>Our Solution to the problems of the L-SAP Verifier Pipeline aims to automate the entire verifier process.
+					In this way, the setup of L-SAP can be made faster and can happen as soon as a new version of Linux
+					is released.</p>
+				<p>We plan to do this by segmenting the pipeline into 4 different modules and automating each part:</p>
+
+				<ol>
+					<li>Patch Creation and Application</li>
+					<li>Difference Mapping and Running L-SAP</li>
+					<li>Difference Summarization</li>
+					<li>Posting Results to the Website</li>
+				</ol>
+
+				<p>Since each step is modular, they were all developed simultaneously. Patch Creation is handled
+					automatically and an algorithm analyzing lock/unlock methods is used to automatically create new
+					patches and apply them to the new version of the kernel.</p>
+				<p>A new difference mapping algorithm is applied to the previous version of the kernel and is
+					used to map previous version's instances to the new version's instances. L-SAP then runs
+					and the results are passed to the difference linker. A difference summary is prepared using the map generated before L-SAP was run. This allows
+					viewers to see only the instances that changed between versions.</p>
+				<p>Finally, all the results are posted to a new <a href="https://lsap.knowledgecentricsoftwarelab.com/">website</a>. The new website includes a much
+					needed search and filtering tool, allowing viewers to pinpoint the instance they are looking for. They
+					are also able to clearly tell the status of the instance looking at the detail page.</p>
+
+				<h4>More Information</h4>
+				<p>To see the final website design, click <a href="https://lsap.knowledgecentricsoftwarelab.com/">here</a></p>
+				<p>For more information on L-SAP, click <a href="http://home.engineering.iastate.edu/~atamrawi/l-sap/">here</a></p>
+				<p>For a detailed description on our project, check out our <a class="target-offset" href="#designdocs">design documents</a> or view a presentation
+					on our solution <a href="documents/sdmay18-09_final_presentation.pdf">here</a>.</p>
+			</div>
+		</div>
+		<div id="weeklyreports" class="nav-content doc-section row collapse" aria-expanded="false">
+			<div class="col-xs-12 col-md-12">
+				<h3>Weekly Reports: First Semester</h3>
+				<ul class="list-group">
+					<a href="documents/sdmay18-09_report01.pdf"><li class="list-group-item">Report #1</li></a>
+					<a href="documents/sdmay18-09_report02.pdf"><li class="list-group-item">Report #2</li></a>
+					<a href="documents/sdmay18-09_report03.pdf"><li class="list-group-item">Report #3</li></a>
+					<a href="documents/sdmay18-09_report04.pdf"><li class="list-group-item">Report #4</li></a>
+					<a href="documents/sdmay18-09_report05.pdf"><li class="list-group-item">Report #5</li></a>
+					<a href="documents/sdmay18-09_report06.pdf"><li class="list-group-item">Report #6</li></a>
+					<a href="documents/sdmay18-09_report05.pdf"><li class="list-group-item">Report #5</li></a>
+					<a href="documents/sdmay18-09_report06.pdf"><li class="list-group-item">Report #6</li></a>
+					<a href="documents/sdmay18-09_report07.pdf"><li class="list-group-item">Report #7</li></a>
+					<a href="documents/sdmay18-09_report08.pdf"><li class="list-group-item">Report #8</li></a>
+					<a href="documents/sdmay18-09_report09.pdf"><li class="list-group-item">Report #9</li></a>
+					<a href="documents/sdmay18-09_report10.pdf"><li class="list-group-item">Report #10</li></a>
+				</ul>
+
+                <h3>Biweekly Reports: Second Semester</h3>
+                <ul class="list-group">
+                    <a href="documents/Weekly Report 1.pdf"><li class="list-group-item">Report #1</li></a>
+                    <a href="documents/Weekly Report 2.pdf"><li class="list-group-item">Report #2</li></a>
+                    <a href="documents/Weekly Report 3.pdf"><li class="list-group-item">Report #3</li></a>
+                    <a href="documents/Weekly Report 4.pdf"><li class="list-group-item">Report #4</li></a>
+                    <a href="documents/Weekly Report 5.pdf"><li class="list-group-item">Report #5</li></a>
+                    <a href="documents/Weekly Report 6.pdf"><li class="list-group-item">Report #6</li></a>
+                    <a href="documents/Weekly Report 7.pdf"><li class="list-group-item">Report #7</li></a>
+                </ul>
+			</div>
+		</div>
+		<div id="designdocs" class="nav-content doc-section row collapse" aria-expanded="false">
+			<div class="col-xs-12 col-md-12">
+				<h3>Design Documents</h3>
+				<ul class="list-group">
+					<a href="documents/projectplanv1.pdf"><li class="list-group-item">Project Plan v1</li></a>
+					<a href="documents/projectplanv2.pdf"><li class="list-group-item">Project Plan v2</li></a>
+					<a href="documents/designdoc1.pdf"><li class="list-group-item">Design Document v1</li></a>
+					<a href="documents/designdoc2.pdf"><li class="list-group-item">Design Document v2</li></a>
+					<a href="documents/designdoc3.pdf"><li class="list-group-item">Design Document v3</li></a>
+				</ul>
+			</div>
+		</div>
+		<div id="finalreview" class="nav-content row collapse" aria-expanded="false">
+			<div class="col-xs-12 col-md-12">
+				<h3>Final Review Documents</h3>
+				<ul class="list-group">
+					<a href="documents/designdoc3.pdf"><li class="list-group-item">Design Document v3</li></a>
+					<a href="documents/sdmay18-09_final_poster.pdf"><li class="list-group-item">Final Poster</li></a>
+					<a href="documents/sdmay18-09_final_report.pdf"><li class="list-group-item">Final Report</li></a>
+					<a href="documents/sdmay18-09_final_presentation.pdf"><li class="list-group-item">Final Presentation</li></a>
+				</ul>
+			</div>
+		</div>
+
+		<div id="about" class="nav-content row collapse" aria-expanded="false">
+			<div class="col-xs-12 col-md-12">
+				<h3>About The Team</h3>
+				<div class="container">
+					<div class="row top-buffer">
+						<div class="col-xs-5 col-sm-4 col-md-3">
+							<img src="assets/srinivasdhanwada.jpg" alt="Srinivas Dhanwada" width="100%" />
+						</div>
+						<div class="col-xs-7 col-sm-8 col-md-9">
+							<h4>Srinivas Dhanwada</h4>
+							<p>Major: Computer&nbsp;Engineering</p>
+							<o>Interests: Software&nbsp;Architecture and Framework&nbsp;Development</o>
+							<p></p>
+						</div>
+					</div>
+					<div class="row top-buffer">
+						<div class="col-xs-5 col-sm-4 col-md-3">
+							<img src="assets/collinmcintyre.jpg" alt="Collin McIntyre" width="100%" />
+						</div>
+						<div class="col-xs-7 col-sm-8 col-md-9">
+							<h4>Collin McIntyre</h4>
+							<p>Major: Computer&nbsp;Engineering</p>
+							<o>Interests: Test&nbsp;Enginnering&nbsp;Automation</o>
+							<p></p>
+						</div>
+					</div>
+					<div class="row top-buffer">
+						<div class="col-xs-5 col-sm-4 col-md-3">
+							<img src="assets/matthewwall.jpg" alt="Matthew Wall" width="100%" />
+						</div>
+						<div class="col-xs-7 col-sm-8 col-md-9">
+							<h4>Matthew Wall</h4>
+							<p>Major: Software&nbsp;Engineering</p>
+							<o>Interests: Front-end&nbsp;Web&nbsp;Development</o>
+							<p></p>
+						</div>
+					</div>
+					<div class="row top-buffer">
+						<div class="col-xs-5 col-sm-4 col-md-3">
+							<img src="assets/benweno.jpg" alt="Benjamin Weno" width="100%" />
+						</div>
+						<div class="col-xs-7 col-sm-8 col-md-9">
+							<h4>Benjamin Weno</h4>
+							<p>Major: Computer&nbsp;Engineering</p>
+							<o>Interests: Web&nbsp;Infrastructure&nbsp;Development</o>
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+<!-- /main -->
+
+<!-- footer -->
+<footer role="contentinfo">
+	<div class="container">
+		<div class="row">
+
+		</div>
+	</div>
+</footer>
+<!-- /footer -->
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="js/vendor/bootstrap-submenu.min.js"></script>
+	<script src="js/iastate.js"></script>
+
+</body>
+</html>

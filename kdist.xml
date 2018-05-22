@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Latest Linux Kernel Versions</title><link>http://www.kernel.org</link><description>Latest Linux Kernel Versions</description><lastBuildDate>Wed, 08 Nov 2017 09:17:19 -0000</lastBuildDate><item><title>4.14-rc8: mainline</title><link>http://www.kernel.org/</link><description>
+            &lt;table&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Version:&lt;/th&gt;&lt;td&gt;&lt;strong&gt;4.14-rc8&lt;/strong&gt; (mainline)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Released:&lt;/th&gt;&lt;td&gt;2017-11-05&lt;/td&gt;&lt;/tr&gt;
+            
+                &lt;tr&gt;&lt;th align="right"&gt;Source:&lt;/th&gt;&lt;td&gt;&lt;a href="https://git.kernel.org/torvalds/t/linux-4.14-rc8.tar.gz"&gt;linux-4.14-rc8.tar.gz&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Patch:&lt;/th&gt;&lt;td&gt;&lt;a href="https://git.kernel.org/torvalds/p/v4.14-rc8/v4.13"&gt;full&lt;/a&gt; (&lt;a href="https://git.kernel.org/torvalds/p/v4.14-rc8/v4.14-rc7"&gt;incremental&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</description><pubDate>Sun, 05 Nov 2017 21:05:26 -0000</pubDate><guid isPermaLink="false">kernel.org,mainline,4.14-rc8,2017-11-05</guid></item><item><title>4.15.2: stable</title><link>http://www.kernel.org/</link><description>
+            &lt;table&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Version:&lt;/th&gt;&lt;td&gt;&lt;strong&gt;4.13.12&lt;/strong&gt; (stable)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Released:&lt;/th&gt;&lt;td&gt;2017-11-08&lt;/td&gt;&lt;/tr&gt;
+            
+                &lt;tr&gt;&lt;th align="right"&gt;Source:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.13.12.tar.xz"&gt;linux-4.13.12.tar.xz&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;PGP Signature:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.13.12.tar.sign"&gt;linux-4.13.12.tar.sign&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Patch:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/patch-4.13.12.xz"&gt;full&lt;/a&gt; (&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/incr/patch-4.13.11-12.xz"&gt;incremental&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;ChangeLog:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.13.12"&gt;ChangeLog-4.13.12&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</description><pubDate>Wed, 08 Nov 2017 09:17:19 -0000</pubDate><guid isPermaLink="false">kernel.org,stable,4.13.12,2017-11-08</guid></item><item><title>4.15-rc2: longterm</title><link>http://www.kernel.org/</link><description>
+            &lt;table&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Version:&lt;/th&gt;&lt;td&gt;&lt;strong&gt;4.9.61&lt;/strong&gt; (longterm)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Released:&lt;/th&gt;&lt;td&gt;2017-11-08&lt;/td&gt;&lt;/tr&gt;
+            
+                &lt;tr&gt;&lt;th align="right"&gt;Source:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.61.tar.xz"&gt;linux-4.9.61.tar.xz&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;PGP Signature:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.61.tar.sign"&gt;linux-4.9.61.tar.sign&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Patch:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/patch-4.9.61.xz"&gt;full&lt;/a&gt; (&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/incr/patch-4.9.60-61.xz"&gt;incremental&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;ChangeLog:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.9.61"&gt;ChangeLog-4.9.61&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</description><pubDate>Wed, 08 Nov 2017 09:08:38 -0000</pubDate><guid isPermaLink="false">kernel.org,longterm,4.9.61,2017-11-08</guid></item><item><title>4.4.97: longterm</title><link>http://www.kernel.org/</link><description>
+            &lt;table&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Version:&lt;/th&gt;&lt;td&gt;&lt;strong&gt;4.4.97&lt;/strong&gt; (longterm)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Released:&lt;/th&gt;&lt;td&gt;2017-11-08&lt;/td&gt;&lt;/tr&gt;
+            
+                &lt;tr&gt;&lt;th align="right"&gt;Source:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.97.tar.xz"&gt;linux-4.4.97.tar.xz&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;PGP Signature:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.97.tar.sign"&gt;linux-4.4.97.tar.sign&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Patch:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/patch-4.4.97.xz"&gt;full&lt;/a&gt; (&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/incr/patch-4.4.96-97.xz"&gt;incremental&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;ChangeLog:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.97"&gt;ChangeLog-4.4.97&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</description><pubDate>Wed, 08 Nov 2017 09:06:33 -0000</pubDate><guid isPermaLink="false">kernel.org,longterm,4.4.97,2017-11-08</guid></item><item><title>4.1.45: longterm</title><link>http://www.kernel.org/</link><description>
+            &lt;table&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Version:&lt;/th&gt;&lt;td&gt;&lt;strong&gt;4.1.45&lt;/strong&gt; (longterm)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Released:&lt;/th&gt;&lt;td&gt;2017-10-16&lt;/td&gt;&lt;/tr&gt;
+            
+                &lt;tr&gt;&lt;th align="right"&gt;Source:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.1.45.tar.xz"&gt;linux-4.1.45.tar.xz&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;PGP Signature:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.1.45.tar.sign"&gt;linux-4.1.45.tar.sign&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Patch:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/patch-4.1.45.xz"&gt;full&lt;/a&gt; (&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/incr/patch-4.1.44-45.xz"&gt;incremental&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;ChangeLog:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.1.45"&gt;ChangeLog-4.1.45&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</description><pubDate>Mon, 16 Oct 2017 22:55:27 -0000</pubDate><guid isPermaLink="false">kernel.org,longterm,4.1.45,2017-10-16</guid></item><item><title>3.18.80: longterm</title><link>http://www.kernel.org/</link><description>
+            &lt;table&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Version:&lt;/th&gt;&lt;td&gt;&lt;strong&gt;3.18.80 (EOL)&lt;/strong&gt; (longterm)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Released:&lt;/th&gt;&lt;td&gt;2017-11-08&lt;/td&gt;&lt;/tr&gt;
+            
+                &lt;tr&gt;&lt;th align="right"&gt;Source:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.18.80.tar.xz"&gt;linux-3.18.80.tar.xz&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;PGP Signature:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.18.80.tar.sign"&gt;linux-3.18.80.tar.sign&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Patch:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/patch-3.18.80.xz"&gt;full&lt;/a&gt; (&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/incr/patch-3.18.79-80.xz"&gt;incremental&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;ChangeLog:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.18.80"&gt;ChangeLog-3.18.80&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</description><pubDate>Wed, 08 Nov 2017 09:05:08 -0000</pubDate><guid isPermaLink="false">kernel.org,longterm,3.18.80,2017-11-08</guid></item><item><title>3.16.49: longterm</title><link>http://www.kernel.org/</link><description>
+            &lt;table&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Version:&lt;/th&gt;&lt;td&gt;&lt;strong&gt;3.16.49&lt;/strong&gt; (longterm)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Released:&lt;/th&gt;&lt;td&gt;2017-10-12&lt;/td&gt;&lt;/tr&gt;
+            
+                &lt;tr&gt;&lt;th align="right"&gt;Source:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.16.49.tar.xz"&gt;linux-3.16.49.tar.xz&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;PGP Signature:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.16.49.tar.sign"&gt;linux-3.16.49.tar.sign&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Patch:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/patch-3.16.49.xz"&gt;full&lt;/a&gt; (&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/incr/patch-3.16.48-49.xz"&gt;incremental&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;ChangeLog:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.16.49"&gt;ChangeLog-3.16.49&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</description><pubDate>Thu, 12 Oct 2017 14:28:31 -0000</pubDate><guid isPermaLink="false">kernel.org,longterm,3.16.49,2017-10-12</guid></item><item><title>3.10.108: longterm</title><link>http://www.kernel.org/</link><description>
+            &lt;table&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Version:&lt;/th&gt;&lt;td&gt;&lt;strong&gt;3.10.108 (EOL)&lt;/strong&gt; (longterm)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Released:&lt;/th&gt;&lt;td&gt;2017-11-04&lt;/td&gt;&lt;/tr&gt;
+            
+                &lt;tr&gt;&lt;th align="right"&gt;Source:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.10.108.tar.xz"&gt;linux-3.10.108.tar.xz&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;PGP Signature:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.10.108.tar.sign"&gt;linux-3.10.108.tar.sign&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Patch:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/patch-3.10.108.xz"&gt;full&lt;/a&gt; (&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/incr/patch-3.10.107-108.xz"&gt;incremental&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;ChangeLog:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.10.108"&gt;ChangeLog-3.10.108&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</description><pubDate>Sat, 04 Nov 2017 22:34:48 -0000</pubDate><guid isPermaLink="false">kernel.org,longterm,3.10.108,2017-11-04</guid></item><item><title>3.2.94: longterm</title><link>http://www.kernel.org/</link><description>
+            &lt;table&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Version:&lt;/th&gt;&lt;td&gt;&lt;strong&gt;3.2.94&lt;/strong&gt; (longterm)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Released:&lt;/th&gt;&lt;td&gt;2017-10-12&lt;/td&gt;&lt;/tr&gt;
+            
+                &lt;tr&gt;&lt;th align="right"&gt;Source:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.2.94.tar.xz"&gt;linux-3.2.94.tar.xz&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;PGP Signature:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.2.94.tar.sign"&gt;linux-3.2.94.tar.sign&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Patch:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/patch-3.2.94.xz"&gt;full&lt;/a&gt; (&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/incr/patch-3.2.93-94.xz"&gt;incremental&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;ChangeLog:&lt;/th&gt;&lt;td&gt;&lt;a href="https://cdn.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.2.94"&gt;ChangeLog-3.2.94&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</description><pubDate>Thu, 12 Oct 2017 14:27:26 -0000</pubDate><guid isPermaLink="false">kernel.org,longterm,3.2.94,2017-10-12</guid></item><item><title>next-20171108: linux-next</title><link>http://www.kernel.org/</link><description>
+            &lt;table&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Version:&lt;/th&gt;&lt;td&gt;&lt;strong&gt;next-20171108&lt;/strong&gt; (linux-next)&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;th align="right"&gt;Released:&lt;/th&gt;&lt;td&gt;2017-11-08&lt;/td&gt;&lt;/tr&gt;
+            
+            &lt;/table&gt;</description><pubDate>Wed, 08 Nov 2017 06:56:43 -0000</pubDate><guid isPermaLink="false">kernel.org,linux-next,next-20171108,2017-11-08</guid></item></channel></rss>
